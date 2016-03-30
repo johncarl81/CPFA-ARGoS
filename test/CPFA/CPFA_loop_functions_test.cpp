@@ -18,3 +18,7 @@ void CPFA_loop_functions_test::TearDown() {};
 TEST_F(CPFA_loop_functions_test, TrueIsTrue) {
     EXPECT_EQ(true, true);
 }
+
+TEST_F(CPFA_loop_functions_test, FalseIsTrue) {
+    EXPECT_EQ(false, true);
+}
