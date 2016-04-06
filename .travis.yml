@@ -1,0 +1,10 @@
+language: cpp
+dist: trusty
+sudo: true
+
+before_install:
+  - ./setup_travis.sh
+  - ./setup_argos.sh
+
+script:
+  - ./build.sh
